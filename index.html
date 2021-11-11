@@ -7,8 +7,38 @@
     <link rel="stylesheet" href="estilos.css"/>
 </head>
     <body>
+        <!--Título-->
         <div>
             Hello World!!
         </div>
+        <!--Formulario-->
+        <div>
+            <label for="input">Número: </label><input type="text"
+        id="input"/>
+                <label for="options">Tipo</label>
+            <select id="options">
+                <option>Manzana</option>
+                <option>Sandía</option>
+                <option>Cerezas</option>
+                <option>Mandarinas</option>
+                <option>Fresas</option>
+            </select>
+        <button onclick="addItem()">Insertar</button>
+            <!--Tabla-->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tipo</th>
+                        <th>Cantidad</th>
+                    </tr>
+                </thead>
+                <tbody id="items">
+                    <tr></tr>
+                </tbody>
+            </table>
+            
+        </div>
+
+            
     </body>
 </html>
